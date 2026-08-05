@@ -38,7 +38,7 @@ export const HomePage: React.FC<HomePageProps> = ({
   return (
     <div>
       <SEO
-        title="Journeyvers Travel | Royal Bespoke Journeys"
+        title="Journeyvers | Royal Bespoke Journeys"
         description="Tour with Journeyvers. Discover budget and luxury tour packages across Hyderabad, Delhi, and Mumbai. Features AI custom itinerary builder and 24/7 royal concierge."
         keywords="Journeyvers, Travel, Tour with Journeyvers, Hyderabad Tour Packages, Delhi Tour Packages, Mumbai Tour Packages, Custom AI Travel Builder"
       />
@@ -114,7 +114,7 @@ export const HomePage: React.FC<HomePageProps> = ({
                 <ShieldCheck className="w-5 h-5" />
               </div>
               <h3 className="font-serif-display text-lg font-bold text-[#1A1A1A] group-hover:text-[#8C7A5B] transition-colors">
-                About Journeyvers Travel
+                About Journeyvers
               </h3>
               <p className="text-xs text-[#5A554C] mt-1 leading-relaxed">
                 Discover the story, royal hospitality heritage, and values behind Journeyvers.

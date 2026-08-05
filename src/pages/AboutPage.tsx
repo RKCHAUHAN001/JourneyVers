@@ -9,7 +9,7 @@ export const AboutPage: React.FC = () => {
       <SEO
         title="About Journeyvers | Royal Travel Heritage"
         description="Learn about Journeyvers. Offering white-glove royal hospitality, AI custom itineraries, and authentic experiences across India."
-        keywords="Journeyvers, Travel, Tour with Journeyvers, Journeyvers Travel, Royal Hospitality India"
+        keywords="Journeyvers, Travel, Tour with Journeyvers, Royal Hospitality India"
       />
 
       {/* Hero Section */}
@@ -20,7 +20,7 @@ export const AboutPage: React.FC = () => {
         </div>
         <h1 className="font-serif-display text-3xl sm:text-5xl font-bold text-[#1A1A1A] leading-tight">
           Crafting Unforgettable Journeys with <br />
-          <span className="text-[#8C7A5B]">Journeyvers Travel</span>
+          <span className="text-[#8C7A5B]">Journeyvers</span>
         </h1>
         <p className="text-xs sm:text-sm text-[#5A554C] leading-relaxed">
           As India's premier bespoke travel agency, Journeyvers combines authentic cultural heritage with modern AI convenience and white-glove royal hospitality.

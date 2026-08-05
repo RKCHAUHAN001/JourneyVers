@@ -58,7 +58,7 @@ export const PackageDetailPage: React.FC<PackageDetailPageProps> = ({
     },
     'provider': {
       '@type': 'TravelAgency',
-      'name': 'Journeyvers Travel',
+      'name': 'Journeyvers',
       'url': 'https://journeyvers.com',
     },
   };

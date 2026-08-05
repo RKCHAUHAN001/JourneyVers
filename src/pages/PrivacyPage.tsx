@@ -22,7 +22,7 @@ export const PrivacyPage: React.FC = () => {
           Privacy Policy
         </h1>
         <p className="text-xs sm:text-sm text-[#5A554C] leading-relaxed">
-          Effective Date: August 3, 2026 | Journeyvers Travel
+          Effective Date: August 3, 2026 | Journeyvers
         </p>
       </div>
 

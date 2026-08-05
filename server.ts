@@ -40,7 +40,7 @@ app.post('/api/gemini/generate-itinerary', async (req, res) => {
       });
     }
 
-    const prompt = `You are a world-class luxury concierge for "Journeyvers Travel", specializing in bespoke travel experiences in India (specifically Hyderabad, Delhi, and Mumbai).
+    const prompt = `You are a world-class luxury concierge for "Journeyvers", specializing in bespoke travel experiences in India (specifically Hyderabad, Delhi, and Mumbai).
 Generate a high-end, day-by-day luxury itinerary for a trip to ${destination || 'Hyderabad'} for ${durationDays || 3} days.
 Traveler type: ${travelerType || 'Couples Luxury'}.
 Budget level: ${budget || 'Ultra Royal'}.
@@ -112,7 +112,7 @@ app.post('/api/gemini/chat', async (req, res) => {
       });
     }
 
-    const systemInstruction = `You are the chief concierge at Journeyvers Travel. 
+    const systemInstruction = `You are the chief concierge at Journeyvers. 
 You provide elegant, articulate, highly knowledgeable travel recommendations and assistance for clients visiting Hyderabad, Delhi, and Mumbai.
 Keep your tone polite, refined, warm, and deeply knowledgeable about luxury hotels (e.g. Taj Falaknuma Palace, The Imperial New Delhi, The Taj Mahal Palace Mumbai), fine dining, heritage secrets, dress codes, weather, and private chauffeur logistics.
 Current active destination: ${currentDestination || 'India Luxury Capitals'}.
@@ -180,7 +180,7 @@ async function startServer() {
   }
 
   app.listen(PORT, '0.0.0.0', () => {
-    console.log(`Journeyvers Travel Server listening on http://0.0.0.0:${PORT}`);
+    console.log(`Journeyvers Server listening on http://0.0.0.0:${PORT}`);
   });
 }
 

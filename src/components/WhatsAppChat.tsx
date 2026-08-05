@@ -91,7 +91,7 @@ export const WhatsAppChat: React.FC<WhatsAppChatProps> = ({
             {/* System Welcome Message */}
             <div className="bg-white p-3 rounded-2xl rounded-tl-none shadow-sm max-w-[85%] border border-[#E0D8CB] text-xs text-[#1A1A1A]">
               <p className="font-bold text-[#075E54] text-[11px] mb-1 flex items-center gap-1">
-                <Sparkles className="w-3 h-3 text-[#8C7A5B]" /> JOURNEYVERS Travel Desk
+                <Sparkles className="w-3 h-3 text-[#8C7A5B]" /> JOURNEYVERS Desk
               </p>
               <p className="leading-relaxed">
                 Hello! 👋 Planning a budget trip or have questions about our tour packages?

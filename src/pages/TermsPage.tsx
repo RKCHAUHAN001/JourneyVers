@@ -22,7 +22,7 @@ export const TermsPage: React.FC = () => {
           Terms and Conditions
         </h1>
         <p className="text-xs sm:text-sm text-[#5A554C] leading-relaxed">
-          Last Updated: August 3, 2026 | Journeyvers Travel
+          Last Updated: August 3, 2026 | Journeyvers
         </p>
       </div>
 

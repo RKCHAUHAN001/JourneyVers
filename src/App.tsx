@@ -257,7 +257,7 @@ function AppContent() {
                 JOURNEYVERS
               </span>
               <span className="text-[9px] uppercase tracking-widest text-[#8C7A5B] font-bold border border-[#8C7A5B]/40 px-1.5 py-0.5 rounded">
-                TRAVEL
+                .COM
               </span>
             </div>
             <p className="text-xs text-[#A09B8F] leading-relaxed">
@@ -333,7 +333,7 @@ function AppContent() {
         </div>
 
         <div className="max-w-7xl mx-auto mt-12 pt-6 border-t border-[#333333] flex flex-col sm:flex-row items-center justify-between text-[11px] text-[#A09B8F] gap-4">
-          <p>© {new Date().getFullYear()} Journeyvers Travel. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} Journeyvers. All rights reserved.</p>
           <div className="flex items-center gap-4 flex-wrap">
             <Link to="/about" className="hover:text-[#F9F7F2] transition-colors">
               About Us

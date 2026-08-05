@@ -9,9 +9,9 @@ interface SEOProps {
   schemaData?: object;
 }
 
-const DEFAULT_TITLE = 'Journeyvers Travel | Royal Bespoke Journeys';
-const DEFAULT_DESCRIPTION = 'Book budget and luxury tour packages in Hyderabad, Delhi, and Mumbai with Journeyvers Travel. Custom AI itineraries, real-time tracking, and 24/7 concierge.';
-const DEFAULT_KEYWORDS = 'Journeyvers, Travel, Tour with Journeyvers, Journeyvers Travel, Hyderabad Tour Packages, Delhi Tour Packages, Mumbai Tour Packages, Luxury Travel India, Custom Tour Builder';
+const DEFAULT_TITLE = 'Journeyvers | Royal Bespoke Journeys';
+const DEFAULT_DESCRIPTION = 'Book budget and luxury tour packages in Hyderabad, Delhi, and Mumbai with Journeyvers. Custom AI itineraries, real-time tracking, and 24/7 concierge.';
+const DEFAULT_KEYWORDS = 'Journeyvers, Travel, Tour with Journeyvers, Hyderabad Tour Packages, Delhi Tour Packages, Mumbai Tour Packages, Luxury Travel India, Custom Tour Builder';
 const SITE_URL = 'https://journeyvers.com';
 
 export function SEO({
@@ -24,7 +24,7 @@ export function SEO({
 }: SEOProps) {
   useEffect(() => {
     // 1. Title
-    const fullTitle = title ? `${title} | Journeyvers Travel` : DEFAULT_TITLE;
+    const fullTitle = title ? `${title} | Journeyvers` : DEFAULT_TITLE;
     document.title = fullTitle;
 
     // Helper to set/update meta tag
@@ -41,13 +41,13 @@ export function SEO({
     // 2. Standard Meta Tags
     updateMetaTag('name', 'description', description);
     updateMetaTag('name', 'keywords', keywords);
-    updateMetaTag('name', 'author', 'Journeyvers Travel');
+    updateMetaTag('name', 'author', 'Journeyvers');
 
     // 3. Open Graph Tags
     updateMetaTag('property', 'og:title', fullTitle);
     updateMetaTag('property', 'og:description', description);
     updateMetaTag('property', 'og:image', ogImage);
-    updateMetaTag('property', 'og:site_name', 'Journeyvers Travel');
+    updateMetaTag('property', 'og:site_name', 'Journeyvers');
     updateMetaTag('property', 'og:type', 'website');
 
     const currUrl = canonicalUrl || (typeof window !== 'undefined' ? window.location.href : SITE_URL);

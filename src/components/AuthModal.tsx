@@ -96,7 +96,7 @@ export const AuthModal: React.FC<AuthModalProps> = ({ onClose, onLoginSuccess })
             <Compass className="w-5 h-5 text-[#8C7A5B]" />
           </div>
           <h2 className="font-serif-display text-2xl text-[#1A1A1A] font-bold">
-            {isSignUp ? 'Join JOURNEYVERS Travel' : 'Traveler Sign In'}
+            {isSignUp ? 'Join JOURNEYVERS' : 'Traveler Sign In'}
           </h2>
           <p className="text-xs text-[#5A554C] mt-1">
             {isSignUp

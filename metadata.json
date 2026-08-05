@@ -1,5 +1,5 @@
 {
-  "name": "Remix JOURNEYVERS Budget Travel",
+  "name": "Journeyvers",
   "description": "Bespoke luxury vacation packages, interactive spots maps, real-time itinerary dashboard, and secure booking for Hyderabad, Delhi, and Mumbai.",
   "requestFramePermissions": [
     "geolocation"
