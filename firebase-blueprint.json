@@ -1,0 +1,46 @@
+{
+  "entities": {
+    "User": {
+      "title": "User Profile",
+      "description": "Registered member profile",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "name": { "type": "string" },
+        "email": { "type": "string" },
+        "phone": { "type": "string" },
+        "membershipTier": { "type": "string" },
+        "avatar": { "type": "string" },
+        "memberSince": { "type": "string" }
+      },
+      "required": ["id", "name", "email"]
+    },
+    "Booking": {
+      "title": "Booking",
+      "description": "User package reservation booking",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "userId": { "type": "string" },
+        "packageId": { "type": "string" },
+        "packageTitle": { "type": "string" },
+        "bookingDate": { "type": "string" },
+        "travelers": { "type": "number" },
+        "totalAmount": { "type": "number" },
+        "status": { "type": "string" },
+        "paymentId": { "type": "string" }
+      },
+      "required": ["id", "userId", "packageId", "totalAmount"]
+    }
+  },
+  "firestore": {
+    "/users/{userId}": {
+      "schema": { "$ref": "#/entities/User" },
+      "description": "User profile collection indexed by Auth UID"
+    },
+    "/bookings/{bookingId}": {
+      "schema": { "$ref": "#/entities/Booking" },
+      "description": "User travel bookings collection"
+    }
+  }
+}

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Homepage -->
+  <url>
+    <loc>https://journeyvers.com/</loc>
+    <lastmod>2026-08-04</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <!-- Tour Packages Listing -->
+  <url>
+    <loc>https://journeyvers.com/packages</loc>
+    <lastmod>2026-08-04</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.95</priority>
+  </url>
+  <!-- Destinations Overview -->
+  <url>
+    <loc>https://journeyvers.com/destinations</loc>
+    <lastmod>2026-08-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <!-- Hyderabad Tour Packages & Heritage -->
+  <url>
+    <loc>https://journeyvers.com/destinations/Hyderabad</loc>
+    <lastmod>2026-08-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <!-- Delhi Heritage Tour Packages -->
+  <url>
+    <loc>https://journeyvers.com/destinations/Delhi</loc>
+    <lastmod>2026-08-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <!-- Mumbai Coastal Tour Packages -->
+  <url>
+    <loc>https://journeyvers.com/destinations/Mumbai</loc>
+    <lastmod>2026-08-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <!-- AI Custom Package Builder -->
+  <url>
+    <loc>https://journeyvers.com/custom-builder</loc>
+    <lastmod>2026-08-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <!-- About Journeyvers & Parivartya Corporation -->
+  <url>
+    <loc>https://journeyvers.com/about</loc>
+    <lastmod>2026-08-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <!-- Contact & Royal Concierge Support -->
+  <url>
+    <loc>https://journeyvers.com/contact</loc>
+    <lastmod>2026-08-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+</urlset>

@@ -1,0 +1,75 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .font-serif-display {
+    font-family: 'Playfair Display', Georgia, serif;
+  }
+  .font-cormorant {
+    font-family: 'Cormorant Garamond', Georgia, serif;
+  }
+  .font-sans-body {
+    font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+  }
+}
+
+/* Custom Editorial Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #F0EEE9;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #8C7A5B;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #1A1A1A;
+}
+
+/* Editorial Aesthetic Card Utilities */
+.glass-panel {
+  background: rgba(255, 255, 255, 0.92);
+  backdrop-filter: blur(12px);
+  border: 1px solid #DCD6C8;
+}
+
+.glass-panel-gold {
+  background: #F0EEE9;
+  backdrop-filter: blur(8px);
+  border: 1px solid #E5E0D5;
+}
+
+.gold-gradient-text {
+  color: #8C7A5B;
+}
+
+.editorial-heading {
+  font-family: 'Playfair Display', Georgia, serif;
+  color: #1A1A1A;
+}
+
+/* Custom leaflet popup overrides for Editorial Aesthetic */
+.leaflet-popup-content-wrapper {
+  background: #FFFFFF !important;
+  color: #1A1A1A !important;
+  border: 1px solid #DCD6C8 !important;
+  border-radius: 8px !important;
+  padding: 4px !important;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08) !important;
+}
+
+.leaflet-popup-tip {
+  background: #FFFFFF !important;
+  border: 1px solid #DCD6C8 !important;
+}
+
+.leaflet-container {
+  font-family: 'Plus Jakarta Sans', sans-serif !important;
+}
+
+

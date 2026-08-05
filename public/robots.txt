@@ -1,0 +1,11 @@
+# User-agent directives for Search Engine Crawlers (Google Search Console, Googlebot, Bingbot, etc.)
+User-agent: *
+Allow: /
+
+# Exclude sensitive dynamic or API paths from indexing
+Disallow: /api/
+Disallow: /admin/
+Disallow: /checkout/
+
+# XML Sitemap Location
+Sitemap: https://journeyvers.com/sitemap.xml
