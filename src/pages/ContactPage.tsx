@@ -21,9 +21,9 @@ export const ContactPage: React.FC = () => {
   return (
     <div className="pt-28 sm:pt-32 lg:pt-36 pb-20 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto space-y-12">
       <SEO
-        title="Contact & Royal Concierge | Tour with Journeyvers - Parivartya"
-        description="Get in touch with Journeyvers by Parivartya Corporation. 24/7 Royal Line support, WhatsApp chat (+91 72910 10487), and custom travel inquiry forms."
-        keywords="Journeyvers, Travel, Tour with Journeyvers, Parivartya, Parivartya Corporation, Contact Journeyvers, Parivartya Customer Care"
+        title="Contact & Royal Concierge | Tour with Journeyvers"
+        description="Get in touch with Journeyvers. 24/7 Royal Line support, WhatsApp chat (+91 72910 10487), and custom travel inquiry forms."
+        keywords="Journeyvers, Travel, Tour with Journeyvers, Contact Journeyvers, Journeyvers Customer Care"
       />
 
       {/* Header Banner */}
@@ -36,7 +36,7 @@ export const ContactPage: React.FC = () => {
           Contact <span className="text-[#8C7A5B]">Journeyvers</span> Concierge
         </h1>
         <p className="text-xs sm:text-sm text-[#5A554C] leading-relaxed">
-          Our travel concierges at Parivartya Corporation are at your service 24 hours a day to assist with custom itineraries, private bookings, and instant support.
+          Our travel concierges are at your service 24 hours a day to assist with custom itineraries, private bookings, and instant support.
         </p>
       </div>
 
@@ -85,7 +85,7 @@ export const ContactPage: React.FC = () => {
             </div>
             <h3 className="font-serif-display font-bold text-base text-[#1A1A1A]">Corporate Headquarters</h3>
             <p className="text-xs text-[#5A554C]">
-              Parivartya Corporation, Imperial Tower, Janpath, Connaught Place, New Delhi 110001
+              Journeyvers Headquarters, Imperial Tower, Janpath, Connaught Place, New Delhi 110001
             </p>
           </div>
         </div>
@@ -103,7 +103,7 @@ export const ContactPage: React.FC = () => {
               </div>
               <h3 className="font-serif-display text-xl font-bold text-emerald-900">Inquiry Received!</h3>
               <p className="text-xs text-emerald-800 max-w-md mx-auto">
-                Thank you for contacting Journeyvers by Parivartya Corporation. A senior travel butler will get back to you via email/phone shortly.
+                Thank you for contacting Journeyvers. A senior travel butler will get back to you via email/phone shortly.
               </p>
               <button
                 onClick={() => setSubmitted(false)}

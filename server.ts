@@ -40,7 +40,7 @@ app.post('/api/gemini/generate-itinerary', async (req, res) => {
       });
     }
 
-    const prompt = `You are a world-class luxury concierge for "Parivartya Luxury Travel", specializing in bespoke travel experiences in India (specifically Hyderabad, Delhi, and Mumbai).
+    const prompt = `You are a world-class luxury concierge for "Journeyvers Travel", specializing in bespoke travel experiences in India (specifically Hyderabad, Delhi, and Mumbai).
 Generate a high-end, day-by-day luxury itinerary for a trip to ${destination || 'Hyderabad'} for ${durationDays || 3} days.
 Traveler type: ${travelerType || 'Couples Luxury'}.
 Budget level: ${budget || 'Ultra Royal'}.
@@ -108,11 +108,11 @@ app.post('/api/gemini/chat', async (req, res) => {
     if (!ai) {
       return res.status(200).json({
         success: false,
-        reply: "Greetings from Parivartya Concierge. I am operating in offline advisory mode. For urgent bookings, our 24/7 Royal Line is available in your itinerary dashboard.",
+        reply: "Greetings from Journeyvers Concierge. I am operating in offline advisory mode. For urgent bookings, our 24/7 Royal Line is available in your itinerary dashboard.",
       });
     }
 
-    const systemInstruction = `You are the chief concierge at Parivartya Luxury Travel. 
+    const systemInstruction = `You are the chief concierge at Journeyvers Travel. 
 You provide elegant, articulate, highly knowledgeable travel recommendations and assistance for clients visiting Hyderabad, Delhi, and Mumbai.
 Keep your tone polite, refined, warm, and deeply knowledgeable about luxury hotels (e.g. Taj Falaknuma Palace, The Imperial New Delhi, The Taj Mahal Palace Mumbai), fine dining, heritage secrets, dress codes, weather, and private chauffeur logistics.
 Current active destination: ${currentDestination || 'India Luxury Capitals'}.
@@ -149,7 +149,7 @@ app.post('/api/payment/process', async (req, res) => {
   await new Promise((resolve) => setTimeout(resolve, 1200));
 
   const transactionId = 'LXV-' + Math.floor(10000000 + Math.random() * 90000000);
-  const confirmationCode = 'PVT-' + Math.random().toString(36).substring(2, 8).toUpperCase();
+  const confirmationCode = 'JNV-' + Math.random().toString(36).substring(2, 8).toUpperCase();
 
   return res.json({
     success: true,
@@ -180,7 +180,7 @@ async function startServer() {
   }
 
   app.listen(PORT, '0.0.0.0', () => {
-    console.log(`Parivartya Luxury Travel Server listening on http://0.0.0.0:${PORT}`);
+    console.log(`Journeyvers Travel Server listening on http://0.0.0.0:${PORT}`);
   });
 }
 

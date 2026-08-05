@@ -257,11 +257,11 @@ function AppContent() {
                 JOURNEYVERS
               </span>
               <span className="text-[9px] uppercase tracking-widest text-[#8C7A5B] font-bold border border-[#8C7A5B]/40 px-1.5 py-0.5 rounded">
-                PARIVARTYA
+                TRAVEL
               </span>
             </div>
             <p className="text-xs text-[#A09B8F] leading-relaxed">
-              Curated heritage and modern tour packages across Hyderabad, Delhi, and Mumbai by Parivartya Corporation.
+              Curated heritage and modern tour packages across Hyderabad, Delhi, and Mumbai.
             </p>
             <div className="flex items-center gap-3 pt-2 text-[#8C7A5B]">
               <Instagram className="w-4 h-4 hover:text-[#F9F7F2] transition-colors cursor-pointer" />
@@ -333,7 +333,7 @@ function AppContent() {
         </div>
 
         <div className="max-w-7xl mx-auto mt-12 pt-6 border-t border-[#333333] flex flex-col sm:flex-row items-center justify-between text-[11px] text-[#A09B8F] gap-4">
-          <p>© {new Date().getFullYear()} Journeyvers by Parivartya Corporation. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} Journeyvers Travel. All rights reserved.</p>
           <div className="flex items-center gap-4 flex-wrap">
             <Link to="/about" className="hover:text-[#F9F7F2] transition-colors">
               About Us

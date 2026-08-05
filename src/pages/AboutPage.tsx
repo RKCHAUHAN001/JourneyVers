@@ -7,23 +7,23 @@ export const AboutPage: React.FC = () => {
   return (
     <div className="pt-28 sm:pt-32 lg:pt-36 pb-20 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto space-y-16">
       <SEO
-        title="About Journeyvers & Parivartya Corporation | Royal Travel Heritage"
-        description="Learn about Journeyvers, a flagship luxury & budget travel brand by Parivartya Corporation. Offering white-glove royal hospitality, AI custom itineraries, and authentic experiences across India."
-        keywords="Journeyvers, Travel, Tour with Journeyvers, Parivartya, Parivartya Corporation, Parivartya Luxury Travel, Parivartya Travel Agency, Royal Hospitality India"
+        title="About Journeyvers | Royal Travel Heritage"
+        description="Learn about Journeyvers. Offering white-glove royal hospitality, AI custom itineraries, and authentic experiences across India."
+        keywords="Journeyvers, Travel, Tour with Journeyvers, Journeyvers Travel, Royal Hospitality India"
       />
 
       {/* Hero Section */}
       <div className="text-center space-y-4 max-w-3xl mx-auto">
         <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-[#8C7A5B]/10 border border-[#8C7A5B]/20 text-[#8C7A5B] text-xs font-bold uppercase tracking-widest">
           <Sparkles className="w-3.5 h-3.5" />
-          <span>Parivartya Corporation Brand Story</span>
+          <span>Journeyvers Brand Story</span>
         </div>
         <h1 className="font-serif-display text-3xl sm:text-5xl font-bold text-[#1A1A1A] leading-tight">
           Crafting Unforgettable Journeys with <br />
-          <span className="text-[#8C7A5B]">Journeyvers by Parivartya</span>
+          <span className="text-[#8C7A5B]">Journeyvers Travel</span>
         </h1>
         <p className="text-xs sm:text-sm text-[#5A554C] leading-relaxed">
-          Founded under the umbrella of <strong>Parivartya Corporation</strong>, Journeyvers stands as India's premier bespoke travel agency. We combine authentic cultural heritage with modern AI convenience and white-glove royal hospitality.
+          As India's premier bespoke travel agency, Journeyvers combines authentic cultural heritage with modern AI convenience and white-glove royal hospitality.
         </p>
       </div>
 
@@ -37,7 +37,7 @@ export const AboutPage: React.FC = () => {
             Redefining Travel Across Hyderabad, Delhi & Mumbai
           </h2>
           <p className="text-xs text-[#5A554C] leading-relaxed">
-            At Journeyvers, we believe that travel should be seamless, inspiring, and accessible. Whether you are seeking a budget-friendly heritage weekend in Old Delhi, a royal Nizam luxury stay in Hyderabad, or a coastal Mumbai getaway, <strong>Parivartya Corporation</strong> delivers curated itineraries backed by verified local guides and 24/7 butler support.
+            At Journeyvers, we believe that travel should be seamless, inspiring, and accessible. Whether you are seeking a budget-friendly heritage weekend in Old Delhi, a royal Nizam luxury stay in Hyderabad, or a coastal Mumbai getaway, Journeyvers delivers curated itineraries backed by verified local guides and 24/7 butler support.
           </p>
           <p className="text-xs text-[#5A554C] leading-relaxed">
             Our real-time itinerary dashboard keeps travelers updated on private vehicle transit, live weather, and concierge recommendations every step of the way.
@@ -62,12 +62,12 @@ export const AboutPage: React.FC = () => {
         <div className="relative rounded-2xl overflow-hidden border border-[#DCD6C8] shadow-md h-80">
           <img
             src="https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=1000&auto=format&fit=crop"
-            alt="Parivartya Luxury Hospitality"
+            alt="Journeyvers Hospitality"
             className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent flex items-end p-6 text-white">
             <div>
-              <p className="font-serif-display font-bold text-lg">Parivartya Hospitality Excellence</p>
+              <p className="font-serif-display font-bold text-lg">Journeyvers Hospitality Excellence</p>
               <p className="text-[11px] text-gray-200">24/7 Dedicated Butler & Royal Concierge Service</p>
             </div>
           </div>
@@ -92,7 +92,7 @@ export const AboutPage: React.FC = () => {
           </div>
           <h3 className="font-serif-display font-bold text-base text-[#1A1A1A]">AI Custom Planning</h3>
           <p className="text-xs text-[#5A554C] leading-relaxed">
-            Proprietary AI itinerary builder by Parivartya Corporation tailored to your exact budget and travel style.
+            Proprietary AI itinerary builder tailored to your exact budget and travel style.
           </p>
         </div>
 

@@ -58,8 +58,8 @@ export const DestinationsPage: React.FC<DestinationsPageProps> = ({
     <div className="pt-28 sm:pt-32 lg:pt-36 pb-20 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto space-y-12">
       <SEO
         title={`${details.title} | Tour with Journeyvers`}
-        description={`${details.description} Book Hyderabad, Delhi, and Mumbai tour packages with Journeyvers by Parivartya Corporation.`}
-        keywords={`Journeyvers, Travel, Tour with Journeyvers, Parivartya, Parivartya Corporation, ${currentCity} Tour Packages, ${currentCity} Travel Guide`}
+        description={`${details.description} Book Hyderabad, Delhi, and Mumbai tour packages with Journeyvers.`}
+        keywords={`Journeyvers, Travel, Tour with Journeyvers, ${currentCity} Tour Packages, ${currentCity} Travel Guide`}
       />
 
       {/* Header Banner */}
@@ -72,7 +72,7 @@ export const DestinationsPage: React.FC<DestinationsPageProps> = ({
           Tour <span className="text-[#8C7A5B]">{currentCity}</span> with Journeyvers
         </h1>
         <p className="text-xs sm:text-sm text-[#5A554C] leading-relaxed">
-          Select a capital below to explore authentic city heritage guides, local culinary secrets, and hand-crafted tour packages by Parivartya Corporation.
+          Select a capital below to explore authentic city heritage guides, local culinary secrets, and hand-crafted tour packages.
         </p>
       </div>
 
@@ -102,7 +102,7 @@ export const DestinationsPage: React.FC<DestinationsPageProps> = ({
         />
         <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent flex flex-col justify-end p-6 sm:p-10 text-white space-y-2">
           <span className="text-xs font-bold text-[#8C7A5B] uppercase tracking-widest bg-black/60 px-3 py-1 rounded-full w-fit backdrop-blur-md">
-            Parivartya Destination Spotlight
+            Destination Spotlight
           </span>
           <h2 className="font-serif-display text-2xl sm:text-4xl font-bold">
             {details.title}

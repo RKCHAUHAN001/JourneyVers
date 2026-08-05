@@ -23,7 +23,7 @@ export const RealtimeDashboard: React.FC<RealtimeDashboardProps> = ({ booking, o
   const [chatMessages, setChatMessages] = useState<Array<{ sender: 'user' | 'concierge'; content: string }>>([
     {
       sender: 'concierge',
-      content: `Greetings! I am your Parivartya Royal Concierge for ${booking.city}. How may I assist your upcoming stay at ${booking.hotelBooked}?`,
+      content: `Greetings! I am your Journeyvers Royal Concierge for ${booking.city}. How may I assist your upcoming stay at ${booking.hotelBooked}?`,
     },
   ]);
   const [chatInput, setChatInput] = useState('');

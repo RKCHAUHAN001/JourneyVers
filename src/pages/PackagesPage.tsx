@@ -34,9 +34,9 @@ export const PackagesPage: React.FC<PackagesPageProps> = ({
   return (
     <div className="pt-28 sm:pt-32 lg:pt-36 pb-20 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto space-y-12">
       <SEO
-        title="Tour Packages | Tour with Journeyvers - Parivartya Corporation"
-        description="Browse all tour packages for Hyderabad, Delhi, and Mumbai. Tour with Journeyvers by Parivartya Corporation for guaranteed low prices, luxury stays, street food walks, and 24/7 concierge."
-        keywords="Journeyvers, Travel, Tour with Journeyvers, Parivartya, Parivartya Corporation, Hyderabad Tour Packages, Delhi Tour Packages, Mumbai Tour Packages, Budget Travel India, Royal Travel Packages"
+        title="Tour Packages | Tour with Journeyvers"
+        description="Browse all tour packages for Hyderabad, Delhi, and Mumbai. Tour with Journeyvers for guaranteed low prices, luxury stays, street food walks, and 24/7 concierge."
+        keywords="Journeyvers, Travel, Tour with Journeyvers, Hyderabad Tour Packages, Delhi Tour Packages, Mumbai Tour Packages, Budget Travel India, Royal Travel Packages"
       />
 
       {/* Header Banner */}
@@ -46,10 +46,10 @@ export const PackagesPage: React.FC<PackagesPageProps> = ({
           <span>Tour with Journeyvers</span>
         </div>
         <h1 className="font-serif-display text-3xl sm:text-5xl font-bold text-[#1A1A1A]">
-          Tour & Travel Packages by <span className="text-[#8C7A5B]">Parivartya</span>
+          Tour & Travel Packages by <span className="text-[#8C7A5B]">Journeyvers</span>
         </h1>
         <p className="text-xs sm:text-sm text-[#5A554C] leading-relaxed">
-          From the historic Nizam Palaces of Hyderabad and Mughal monuments of Delhi to coastal Mumbai, discover hand-curated tour packages designed by Journeyvers & Parivartya Corporation.
+          From the historic Nizam Palaces of Hyderabad and Mughal monuments of Delhi to coastal Mumbai, discover hand-curated tour packages designed by Journeyvers.
         </p>
       </div>
 
@@ -228,7 +228,7 @@ export const PackagesPage: React.FC<PackagesPageProps> = ({
             <span>Need a Custom Travel Plan?</span>
           </div>
           <h3 className="font-serif-display text-2xl font-bold text-[#1A1A1A]">
-            Design Your Tailored Itinerary with Parivartya AI
+            Design Your Tailored Itinerary with Journeyvers AI
           </h3>
           <p className="text-xs text-[#5A554C] max-w-xl">
             Specify your budget, travel dates, and preferences. Our concierge AI generator will craft a day-by-day royal plan in seconds.

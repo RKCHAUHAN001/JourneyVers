@@ -58,7 +58,7 @@ export const PackageDetailPage: React.FC<PackageDetailPageProps> = ({
     },
     'provider': {
       '@type': 'TravelAgency',
-      'name': 'Journeyvers by Parivartya Corporation',
+      'name': 'Journeyvers Travel',
       'url': 'https://journeyvers.com',
     },
   };
@@ -66,9 +66,9 @@ export const PackageDetailPage: React.FC<PackageDetailPageProps> = ({
   return (
     <div className="pt-28 sm:pt-32 lg:pt-36 pb-20 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto space-y-10">
       <SEO
-        title={`${pkg.title} | Tour with Journeyvers - Parivartya`}
+        title={`${pkg.title} | Tour with Journeyvers`}
         description={`Book ${pkg.title} in ${pkg.city}. ${pkg.subtitle}. Price ₹${pkg.priceINR.toLocaleString('en-IN')}. Includes ${pkg.hotelName}, private transport, and 24/7 concierge.`}
-        keywords={`Journeyvers, Travel, Tour with Journeyvers, Parivartya, Parivartya Corporation, ${pkg.city} Tour, ${pkg.title}`}
+        keywords={`Journeyvers, Travel, Tour with Journeyvers, ${pkg.city} Tour, ${pkg.title}`}
         schemaData={schemaData}
       />
 
@@ -183,7 +183,7 @@ export const PackageDetailPage: React.FC<PackageDetailPageProps> = ({
               </div>
               <div className="flex items-start gap-2">
                 <CheckCircle className="w-4 h-4 text-[#8C7A5B] shrink-0 mt-0.5" />
-                <span><strong>Concierge Support:</strong> 24/7 Parivartya Butler Line</span>
+                <span><strong>Concierge Support:</strong> 24/7 Journeyvers Butler Line</span>
               </div>
             </div>
           </div>
@@ -252,7 +252,7 @@ export const PackageDetailPage: React.FC<PackageDetailPageProps> = ({
               </div>
               <div className="flex items-center gap-2">
                 <UserCheck className="w-4 h-4 text-[#8C7A5B]" />
-                <span>Verified Parivartya Local Tour Guide</span>
+                <span>Verified Local Tour Guide</span>
               </div>
               <div className="flex items-center gap-2">
                 <Clock className="w-4 h-4 text-[#8C7A5B]" />

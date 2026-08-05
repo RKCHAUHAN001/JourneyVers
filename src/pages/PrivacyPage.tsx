@@ -7,9 +7,9 @@ export const PrivacyPage: React.FC = () => {
   return (
     <div className="pt-28 sm:pt-32 lg:pt-36 pb-20 px-4 sm:px-6 lg:px-8 max-w-5xl mx-auto space-y-12">
       <SEO
-        title="Privacy Policy | Journeyvers - Parivartya Corporation"
-        description="Read the official Privacy Policy of Journeyvers by Parivartya Corporation. Learn how we handle, store, and protect your personal travel data."
-        keywords="Journeyvers Privacy Policy, Parivartya Corporation Privacy, Data Protection Travel, Privacy Standards Journeyvers"
+        title="Privacy Policy | Journeyvers"
+        description="Read the official Privacy Policy of Journeyvers. Learn how we handle, store, and protect your personal travel data."
+        keywords="Journeyvers Privacy Policy, Data Protection Travel, Privacy Standards Journeyvers"
       />
 
       {/* Header */}
@@ -22,7 +22,7 @@ export const PrivacyPage: React.FC = () => {
           Privacy Policy
         </h1>
         <p className="text-xs sm:text-sm text-[#5A554C] leading-relaxed">
-          Effective Date: August 3, 2026 | Parivartya Corporation
+          Effective Date: August 3, 2026 | Journeyvers Travel
         </p>
       </div>
 
@@ -34,7 +34,7 @@ export const PrivacyPage: React.FC = () => {
             1. Commitment to Privacy
           </h2>
           <p className="text-xs sm:text-sm text-[#5A554C] leading-relaxed">
-            At <strong>Journeyvers</strong> (a brand operated by <strong>Parivartya Corporation</strong>), we take your privacy and data security seriously. This Privacy Policy outlines how we collect, use, store, and safeguard your personal information when you access our travel portal, use our custom itinerary builders, or book tours across Hyderabad, Delhi, and Mumbai.
+            At <strong>Journeyvers</strong>, we take your privacy and data security seriously. This Privacy Policy outlines how we collect, use, store, and safeguard your personal information when you access our travel portal, use our custom itinerary builders, or book tours across Hyderabad, Delhi, and Mumbai.
           </p>
         </div>
 
@@ -108,7 +108,7 @@ export const PrivacyPage: React.FC = () => {
         <div className="bg-[#F9F7F2] border border-[#DCD6C8] rounded-2xl p-6 flex flex-col sm:flex-row items-center justify-between gap-4">
           <div>
             <h3 className="font-bold text-sm text-[#1A1A1A]">Questions about our Privacy Policy?</h3>
-            <p className="text-xs text-[#5A554C]">Our 24/7 concierge line and legal team at Parivartya Corporation are happy to assist.</p>
+            <p className="text-xs text-[#5A554C]">Our 24/7 concierge line and legal team at Journeyvers are happy to assist.</p>
           </div>
           <Link
             to="/contact"

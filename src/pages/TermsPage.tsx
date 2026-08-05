@@ -7,9 +7,9 @@ export const TermsPage: React.FC = () => {
   return (
     <div className="pt-28 sm:pt-32 lg:pt-36 pb-20 px-4 sm:px-6 lg:px-8 max-w-5xl mx-auto space-y-12">
       <SEO
-        title="Terms and Conditions | Journeyvers - Parivartya Corporation"
-        description="Read the official Terms and Conditions for booking tours, custom itineraries, and luxury packages with Journeyvers by Parivartya Corporation."
-        keywords="Journeyvers Terms and Conditions, Parivartya Corporation Terms, Booking Policy, Travel Terms India, Parivartya Corporation Guidelines"
+        title="Terms and Conditions | Journeyvers"
+        description="Read the official Terms and Conditions for booking tours, custom itineraries, and luxury packages with Journeyvers."
+        keywords="Journeyvers Terms and Conditions, Booking Policy, Travel Terms India, Journeyvers Guidelines"
       />
 
       {/* Header */}
@@ -22,7 +22,7 @@ export const TermsPage: React.FC = () => {
           Terms and Conditions
         </h1>
         <p className="text-xs sm:text-sm text-[#5A554C] leading-relaxed">
-          Last Updated: August 3, 2026 | Parivartya Corporation
+          Last Updated: August 3, 2026 | Journeyvers Travel
         </p>
       </div>
 
@@ -34,7 +34,7 @@ export const TermsPage: React.FC = () => {
             1. Overview & Agreement
           </h2>
           <p className="text-xs sm:text-sm text-[#5A554C] leading-relaxed">
-            Welcome to <strong>Journeyvers</strong>, a flagship brand owned and operated by <strong>Parivartya Corporation</strong>. By accessing our platform, utilizing our custom itinerary builder, or reserving any travel package, you agree to comply with and be bound by these Terms and Conditions.
+            Welcome to <strong>Journeyvers</strong>. By accessing our platform, utilizing our custom itinerary builder, or reserving any travel package, you agree to comply with and be bound by these Terms and Conditions.
           </p>
         </div>
 
@@ -97,7 +97,7 @@ export const TermsPage: React.FC = () => {
             5. Liability & Force Majeure
           </h2>
           <p className="text-xs sm:text-sm text-[#5A554C] leading-relaxed">
-            Parivartya Corporation acts with utmost care in selecting travel vendors. However, Journeyvers shall not be held liable for delays or cancellations arising from acts of God, extreme weather conditions, traffic road closures, or government restrictions beyond our reasonable control.
+            Journeyvers acts with utmost care in selecting travel vendors. However, Journeyvers shall not be held liable for delays or cancellations arising from acts of God, extreme weather conditions, traffic road closures, or government restrictions beyond our reasonable control.
           </p>
         </div>
 

@@ -14,9 +14,9 @@ export const CustomBuilderPage: React.FC<CustomBuilderPageProps> = ({ onProceedT
   return (
     <div className="pt-28 sm:pt-32 lg:pt-36">
       <SEO
-        title="AI Custom Package Builder | Tour with Journeyvers - Parivartya"
-        description="Build a tailored day-by-day luxury or budget tour itinerary for Hyderabad, Delhi, and Mumbai using Parivartya AI. Tour with Journeyvers for custom royal travel."
-        keywords="Journeyvers, Travel, Tour with Journeyvers, Parivartya, Parivartya Corporation, Custom Itinerary Generator, AI Travel Planner"
+        title="AI Custom Package Builder | Tour with Journeyvers"
+        description="Build a tailored day-by-day luxury or budget tour itinerary for Hyderabad, Delhi, and Mumbai using Journeyvers AI. Tour with Journeyvers for custom royal travel."
+        keywords="Journeyvers, Travel, Tour with Journeyvers, Custom Itinerary Generator, AI Travel Planner"
       />
 
       <CustomPackageBuilder

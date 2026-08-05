@@ -72,7 +72,7 @@ export const WhatsAppChat: React.FC<WhatsAppChatProps> = ({
                 <MessageCircle className="w-6 h-6 fill-current" />
               </div>
               <div>
-                <h4 className="font-bold text-sm leading-tight">PARIVARTYA Tour Support</h4>
+                <h4 className="font-bold text-sm leading-tight">JOURNEYVERS Tour Support</h4>
                 <p className="text-[10px] text-emerald-100 flex items-center gap-1 mt-0.5">
                   <span className="w-1.5 h-1.5 rounded-full bg-emerald-400"></span> Online • Responds in minutes
                 </p>
@@ -91,7 +91,7 @@ export const WhatsAppChat: React.FC<WhatsAppChatProps> = ({
             {/* System Welcome Message */}
             <div className="bg-white p-3 rounded-2xl rounded-tl-none shadow-sm max-w-[85%] border border-[#E0D8CB] text-xs text-[#1A1A1A]">
               <p className="font-bold text-[#075E54] text-[11px] mb-1 flex items-center gap-1">
-                <Sparkles className="w-3 h-3 text-[#8C7A5B]" /> PARIVARTYA Travel Desk
+                <Sparkles className="w-3 h-3 text-[#8C7A5B]" /> JOURNEYVERS Travel Desk
               </p>
               <p className="leading-relaxed">
                 Hello! 👋 Planning a budget trip or have questions about our tour packages?

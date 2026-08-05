@@ -38,9 +38,9 @@ export const HomePage: React.FC<HomePageProps> = ({
   return (
     <div>
       <SEO
-        title="Journeyvers Travel | Royal Bespoke Journeys by Parivartya Corporation"
-        description="Tour with Journeyvers by Parivartya Corporation. Discover budget and luxury tour packages across Hyderabad, Delhi, and Mumbai. Features AI custom itinerary builder and 24/7 royal concierge."
-        keywords="Journeyvers, Travel, Tour with Journeyvers, Parivartya, Parivartya Corporation, Hyderabad Tour Packages, Delhi Tour Packages, Mumbai Tour Packages, Custom AI Travel Builder"
+        title="Journeyvers Travel | Royal Bespoke Journeys"
+        description="Tour with Journeyvers. Discover budget and luxury tour packages across Hyderabad, Delhi, and Mumbai. Features AI custom itinerary builder and 24/7 royal concierge."
+        keywords="Journeyvers, Travel, Tour with Journeyvers, Hyderabad Tour Packages, Delhi Tour Packages, Mumbai Tour Packages, Custom AI Travel Builder"
       />
 
       {/* Hero Banner Slider */}
@@ -96,7 +96,7 @@ export const HomePage: React.FC<HomePageProps> = ({
                 AI Custom Package Builder
               </h3>
               <p className="text-xs text-[#DCD6C8] mt-1 leading-relaxed">
-                Tailor a bespoke day-by-day travel plan instantly powered by Parivartya AI engine.
+                Tailor a bespoke day-by-day travel plan instantly powered by Journeyvers AI engine.
               </p>
             </div>
             <div className="mt-4 flex items-center gap-2 text-xs font-bold text-[#8C7A5B]">
@@ -114,10 +114,10 @@ export const HomePage: React.FC<HomePageProps> = ({
                 <ShieldCheck className="w-5 h-5" />
               </div>
               <h3 className="font-serif-display text-lg font-bold text-[#1A1A1A] group-hover:text-[#8C7A5B] transition-colors">
-                About Parivartya Corporation
+                About Journeyvers Travel
               </h3>
               <p className="text-xs text-[#5A554C] mt-1 leading-relaxed">
-                Discover the story, royal hospitality heritage, and values behind Journeyvers by Parivartya.
+                Discover the story, royal hospitality heritage, and values behind Journeyvers.
               </p>
             </div>
             <div className="mt-4 flex items-center gap-2 text-xs font-bold text-[#8C7A5B]">
@@ -152,7 +152,7 @@ export const HomePage: React.FC<HomePageProps> = ({
         <div className="max-w-4xl mx-auto px-4 space-y-6">
           <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white border border-[#DCD6C8] text-[#8C7A5B] text-xs uppercase font-bold tracking-widest shadow-sm">
             <Sparkles className="w-3.5 h-3.5 text-[#8C7A5B]" />
-            <span>The Parivartya Guarantee</span>
+            <span>The Journeyvers Guarantee</span>
           </div>
           <h2 className="font-serif-display text-3xl sm:text-5xl text-[#1A1A1A] leading-tight">
             Tour with Journeyvers Across <br />
@@ -161,7 +161,7 @@ export const HomePage: React.FC<HomePageProps> = ({
             </span>
           </h2>
           <p className="text-xs sm:text-sm text-[#5A554C] max-w-2xl mx-auto leading-relaxed">
-            Every Journeyvers itinerary crafted by Parivartya Corporation guarantees curated curator access, chauffeur transfers, luxury hotel accommodations, and 24/7 dedicated support.
+            Every Journeyvers itinerary guarantees curated curator access, chauffeur transfers, luxury hotel accommodations, and 24/7 dedicated support.
           </p>
           <div className="pt-4 flex items-center justify-center gap-4">
             <Link

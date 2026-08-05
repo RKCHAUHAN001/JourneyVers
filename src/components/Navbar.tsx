@@ -40,7 +40,7 @@ export const Navbar: React.FC<NavbarProps> = ({
                 JOURNEYVERS
               </span>
               <span className="text-[9px] uppercase tracking-[0.2em] text-[#8C7A5B] font-semibold">
-                Parivartya Corporation
+                Bespoke Travel Journeys
               </span>
             </div>
           </Link>
